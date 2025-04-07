@@ -1,3 +1,4 @@
+<!-- POSIBLE MEJORA 1 HACIENDO TODO MÁS RESPONSIVE CON BOOTSTRAP -->
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -31,9 +32,9 @@
       <!-- Comentario: Sección destinada a la presentación personal y biografía -->
       <h2>Sobre mí</h2>
       <p>Hola, soy Manuel Correderas. Soy un desarrollador apasionado por la tecnología y el diseño web. Mi misión es crear soluciones digitales innovadoras.</p>
-      <img src="recursos/perfil.jpg" alt="Foto de Manuel Correderas">
+      <img src="img/perfil.jpg" alt="Foto de Manuel Correderas">
     </section>
-
+    <!-- POSIBLE MEJORA 2 Añadiendo links a  proyectos ya acabados o dividir entre proyectos hechos en curso y acabados -->
     <!-- Sección de tarjetas o columnas para proyectos -->
     <section id="tarjetas">
       <!-- Comentario: Las tarjetas se organizan utilizando Flexbox -->
@@ -41,17 +42,21 @@
       <div class="tarjetas-container">
         <div class="tarjeta">
           <img src="img/proyecto1.jpg" alt="Proyecto 1">
-          <h3>Proyecto 1</h3>
-          <p>Descripción breve del proyecto 1.</p>
+          <h3>ALQUILARTE</h3>
+          <p>Alquilarte es una solución digital integral para la administración de alquileres en el sector inmobiliario. Su objetivo es automatizar procesos críticos como el registro de propiedades, inquilinos, contratos y pagos, facilitando la generación de reportes contables y financieros en tiempo real. Además, incorpora alertas para vencimientos, coordinación de visitas y tareas de mantenimiento, e integración con sistemas contables, lo que permite mejorar la eficiencia y reducir errores en la gestión diaria de la empresa.</p>
         </div>
         <div class="tarjeta">
           <img src="img/proyecto2.jpg" alt="Proyecto 2">
-          <h3>Proyecto 2</h3>
-          <p>Descripción breve del proyecto 2.</p>
+          <h3>Salud Viandah</h3>
+          <p>Salud Viandah es una propuesta gastronómica centrada en la alimentación saludable, rica y accesible. Ofrecemos viandas nutritivas, equilibradas y visualmente apetitosas, elaboradas con ingredientes frescos y de alta calidad. Nuestro objetivo es facilitar una alimentación consciente, sin sacrificar el sabor ni el placer de comer bien.
+
+            A través de un menú variado que incluye opciones vegetarianas, veganas, keto, y con proteínas animales, buscamos adaptarnos a las distintas necesidades nutricionales y estilos de vida. Cada plato está diseñado por profesionales, para garantizar el aporte adecuado de nutrientes y apoyar una vida activa y saludable.
+            
+            Contamos con un sistema de pedidos online, promociones semanales, y una red de distribución eficiente que lleva nuestros platos directamente a la puerta de nuestros clientes. Además, promovemos la educación alimentaria, el consumo responsable, y una relación más saludable con la comida.</p>
         </div>
       </div>
     </section>
-
+    <!-- POSIBLE MEJORA 3  añadiendo efectos -->
     <!-- Sección de listado de habilidades -->
     <section id="habilidades">
       <!-- Comentario: Listado de tecnologías, habilidades y/o hobbies -->
@@ -64,11 +69,11 @@
       </ul>
     </section>
 
-    <!-- Sección de formulario de contacto -->
+    
     <section id="contacto">
       <!-- Comentario: Formulario básico para la comunicación -->
       <h2>Contacto</h2>
-      <form action="#" method="post">
+      <form action="https://formsubmit.co/manugonzo1111@gmail.com" method="post">
         <label for="nombre">Nombre:</label>
         <input type="text" id="nombre" name="nombre" required>
         <br>
@@ -84,7 +89,7 @@
         <button type="submit">Enviar</button>
       </form>
     </section>
-
+    <!-- POSIBLE MEJORA 4 añadiendo carrusel -->
     <!-- Sección de películas favoritas -->
     <section id="peliculas">
       <!-- Comentario: Se muestran las tres películas favoritas con su descripción -->
@@ -92,17 +97,17 @@
       <div class="pelicula">
         <h3>Película 1</h3>
         <img src="img/pelicula1.jpg" alt="Película 1">
-        <p>Breve descripción de la película 1.</p>
+        <p>En 2142, una sonda espacial de la corporación Weyland-Yutani investiga los restos del USCSS Nostromo y recoge un objeto orgánico que contiene un Xenomorfo. Tiempo después, en la colonia minera Jackson's Star, la joven Rain Carradine, una huérfana que trabaja con su hermano adoptivo Andy, un humano sintético reprogramado, acepta unirse a su ex-novio Tyler para viajar a una nave espacial abandonada a intentar recuperar unas cámaras de criostasis. Éstas les permitirán a ellos y a sus amigos (la hermana de Tyler, Kay, su primo Bjorn y la novia de este, Navarro) escapar todos al planeta Yvaga</p>
       </div>
       <div class="pelicula">
         <h3>Película 2</h3>
         <img src="img/pelicula2.jpg" alt="Película 2">
-        <p>Breve descripción de la película 2.</p>
+        <p>El día de su boda, una asesina profesional (Thurman) sufre el ataque de algunos miembros de su propia banda, que obedecen las órdenes de Bill (David Carradine), el jefe de la organización criminal. Logra sobrevivir al ataque, aunque queda en coma. Cuatro años después despierta dominada por un gran deseo de venganza.</p>
       </div>
       <div class="pelicula">
         <h3>Película 3</h3>
         <img src="img/pelicula3.jpg" alt="Película 3">
-        <p>Breve descripción de la película 3.</p>
+        <p>En Sin City, ciudad de policías corruptos y atractivas mujeres, unos buscan venganza, otros, redención, o ambas cosas a la vez. Marv (Mickey Rourke) se propone vengar la muerte de su único amor. Dwight (Clive Owen) es un investigador privado con problemas que resolver. Hartigan (Bruce Willis), el único policía honrado de la ciudad, sigue la pista de una joven que está en manos del sádico hijo de un senador.</p>
       </div>
     </section>
   </main>
@@ -111,6 +116,15 @@
   <footer>
     <!-- Comentario: Información adicional y enlaces a redes sociales -->
     <p>&copy; 2025 Mi Portafolio Personal. Todos los derechos reservados.</p>
+    <div position="center" class="col-4">
+        <div position="center" class="container">
+            <nav position="center" class="social">
+                
+                <a target="_blank" href="https://www.linkedin.com/in/manuel-correderas-012a09188/?originalSubdomain=ar">
+                    <img width="75px" height="75px"class="redes" src="img/lk.jpg" alt="instagram"></a>
+                
+            </nav>
+        </div>
   </footer>
 </body>
 </html>
