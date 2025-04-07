@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Portafolio Personal</title>
+  <!-- Enlace a Google Fonts: Se importa la fuente Roboto -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <!-- Enlace al archivo CSS -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <!-- Encabezado: Título principal o logo -->
+  <header>
+    <h1>Mi Portafolio Personal</h1>
+  </header>
+
+  <!-- Barra de navegación con al menos tres enlaces -->
+  <nav>
+    <ul>
+      <li><a href="#sobre-mi">Sobre mí</a></li>
+      <li><a href="#tarjetas">Proyectos</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <!-- Sección principal -->
+  <main>
+    <!-- Sección de presentación personal -->
+    <section id="sobre-mi">
+      <!-- Comentario: Sección destinada a la presentación personal y biografía -->
+      <h2>Sobre mí</h2>
+      <p>Hola, soy Manuel Correderas. Soy un desarrollador apasionado por la tecnología y el diseño web. Mi misión es crear soluciones digitales innovadoras.</p>
+      <img src="recursos/perfil.jpg" alt="Foto de Manuel Correderas">
+    </section>
+
+    <!-- Sección de tarjetas o columnas para proyectos -->
+    <section id="tarjetas">
+      <!-- Comentario: Las tarjetas se organizan utilizando Flexbox -->
+      <h2>Proyectos</h2>
+      <div class="tarjetas-container">
+        <div class="tarjeta">
+          <img src="img/proyecto1.jpg" alt="Proyecto 1">
+          <h3>Proyecto 1</h3>
+          <p>Descripción breve del proyecto 1.</p>
+        </div>
+        <div class="tarjeta">
+          <img src="img/proyecto2.jpg" alt="Proyecto 2">
+          <h3>Proyecto 2</h3>
+          <p>Descripción breve del proyecto 2.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección de listado de habilidades -->
+    <section id="habilidades">
+      <!-- Comentario: Listado de tecnologías, habilidades y/o hobbies -->
+      <h2>Habilidades</h2>
+      <ul>
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>JavaScript</li>
+        <li>Responsive Design</li>
+      </ul>
+    </section>
+
+    <!-- Sección de formulario de contacto -->
+    <section id="contacto">
+      <!-- Comentario: Formulario básico para la comunicación -->
+      <h2>Contacto</h2>
+      <form action="#" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+        <br>
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" name="apellido" required>
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br>
+        <label for="telefono">Teléfono:</label>
+        <input type="tel" id="telefono" name="telefono">
+        <br>
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+
+    <!-- Sección de películas favoritas -->
+    <section id="peliculas">
+      <!-- Comentario: Se muestran las tres películas favoritas con su descripción -->
+      <h2>Películas Favoritas</h2>
+      <div class="pelicula">
+        <h3>Película 1</h3>
+        <img src="img/pelicula1.jpg" alt="Película 1">
+        <p>Breve descripción de la película 1.</p>
+      </div>
+      <div class="pelicula">
+        <h3>Película 2</h3>
+        <img src="img/pelicula2.jpg" alt="Película 2">
+        <p>Breve descripción de la película 2.</p>
+      </div>
+      <div class="pelicula">
+        <h3>Película 3</h3>
+        <img src="img/pelicula3.jpg" alt="Película 3">
+        <p>Breve descripción de la película 3.</p>
+      </div>
+    </section>
+  </main>
+
+  <!-- Pie de página -->
+  <footer>
+    <!-- Comentario: Información adicional y enlaces a redes sociales -->
+    <p>&copy; 2025 Mi Portafolio Personal. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
